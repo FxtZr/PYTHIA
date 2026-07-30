@@ -209,7 +209,7 @@ Record either pass in `SOURCES.md` when done.
 
 ## Contact
 
-- Site — <https://FxtZr.com/>
+- Personal website — <https://FxtZr.com/>
 - GitHub — <https://github.com/FxtZr/>
 - YouTube — <https://www.youtube.com/@Fxtzr>
 - X — <https://x.com/Fxt_Zr>
