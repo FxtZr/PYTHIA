@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PYTHIA — stereochemistry, nomenclature and reaction mechanisms</title>
+<meta name="description" content="An offline teaching tool for molecular
+      structure in three dimensions, IUPAC nomenclature, and reaction
+      mechanisms. No network, no accounts, no tracking.">
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/pythia.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="masthead">
+  <div class="shell masthead-inner">
+    <div class="brand">
+      <h1 class="wordmark">PYTHIA</h1>
+      <p class="tagline">Molecular structure in three dimensions</p>
+    </div>
+    <nav class="nav" id="nav" aria-label="Sections"></nav>
+  </div>
+</header>
+
+<main id="main" class="shell" tabindex="-1">
+  <noscript>
+    <div class="disclaimer" style="margin:var(--gap-xl) 0">
+      This program runs entirely in your browser and needs JavaScript to
+      draw structures. Nothing is sent anywhere; the code is in this folder
+      and you can read it.
+    </div>
+  </noscript>
+  <div id="view"></div>
+</main>
+
+<footer class="footer">
+  <div class="shell">
+    <p class="disclaimer">
+      An educational reference for studying chemistry. Structures and
+      descriptors are computed, not measured, and are not a substitute for a
+      primary source or a supervisor's judgement.
+    </p>
+    <div class="footer-meta">
+      <p class="label">Sources</p>
+      <div id="sources"></div>
+    </div>
+  </div>
+</footer>
+
+<!-- Plain script tags, deliberately. Modules and fetch() are blocked under
+     the file:// protocol, and this program must open by double-clicking
+     index.html with no server and no build step. -->
+<script src="assets/vendor/3Dmol-min.js"></script>
+<script src="data/molecules.js"></script>
+<script src="data/mechanisms.js"></script>
+<script src="data/lessons.js"></script>
+<script src="data/nomenclature.js"></script>
+<script src="data/pathways.js"></script>
+<script src="data/elements.js"></script>
+<script src="data/glossary.js"></script>
+<script src="data/spectroscopy.js"></script>
+<script src="js/depict.js"></script>
+<script src="js/calc.js"></script>
+<script src="js/viewer3d.js"></script>
+<script src="js/views/explore.js"></script>
+<script src="js/views/stereochemistry.js"></script>
+<script src="js/views/nomenclature.js"></script>
+<script src="js/views/mechanisms.js"></script>
+<script src="js/views/pathways.js"></script>
+<script src="js/views/calculators.js"></script>
+<script src="js/views/spectroscopy.js"></script>
+<script src="js/views/glossary.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
